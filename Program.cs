@@ -20,6 +20,7 @@ namespace Back_end
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    // hello
                     webBuilder.UseStartup<Startup>();
                 });
     }
