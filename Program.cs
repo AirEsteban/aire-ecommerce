@@ -21,7 +21,6 @@ namespace Back_end
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     // hello stranger
-                    
                     webBuilder.UseStartup<Startup>();
                 });
     }
