@@ -1,2 +1,39 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./common.scss";
 
+.margin-row{
+    padding: 5vh;
+    margin-top: 10vh !important;
+}
+
+.login-lbl{
+    color:$cyan-400;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.box{
+    background-color: $backgrounds;
+    border: 1px solid $backgrounds;
+    border-radius: 5% 5%;
+}
+
+.box-content{
+    padding: 2rem;
+}
+
+.login-inp:focus{
+   box-shadow: 0.55px 0.55px 0.55px 0.55px $cyan-400 !important;
+}
+
+span{
+    color:white;
+}
+
+span > a:hover{
+    color:$cyan-700;
+    padding:1px;
+}
+
+img {
+    background-color:transparent;
+}

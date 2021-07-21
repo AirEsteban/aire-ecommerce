@@ -1,14 +1,7 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
-
-html, body{
-    font-size: 16px;
-    font-family: 'Fjalla One', sans-serif;
-    height: 100vh;
-}
+@import "./common.scss";
 
 .nav-color{
-    align-items:sp;
-    background-color:rgba(0, 0, 0, 0.788);
+    background-color: $backgrounds;
 }
 
 .nav-color-text{
