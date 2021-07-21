@@ -1,0 +1,24 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+html, body{
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    height: 100vh;
+}
+
+.nav-color{
+    align-items:sp;
+    background-color:rgba(0, 0, 0, 0.788);
+}
+
+.nav-color-text{
+    color: $cyan-400;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-color-text:hover{
+    color: $cyan-700;
+    margin: 1.5rem;
+    text-decoration: none;
+}
