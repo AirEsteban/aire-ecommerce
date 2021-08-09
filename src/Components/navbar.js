@@ -1,5 +1,6 @@
 import React from 'react';
 import Login from './login';
+import SignUp from './signUp';
 import {
     BrowserRouter as Router,
     Link,
@@ -34,7 +35,8 @@ function NavBar(){
                         </li>
                     </ul>
                     <form className="d-flex">
-                        <Link to='/login'><button class="btn btn-info" type="submit">LOGIN</button></Link>
+                        <Link to='/signUp'><button href="#" className="btn btn-light mx-2">SIGN UP!</button></Link>
+                        <Link to='/login'><button className="btn btn-info" type="submit">LOGIN</button></Link>
                     </form>
                 </div>
             </div>
@@ -42,6 +44,9 @@ function NavBar(){
         <Switch>
           <Route exact path="/login">
             <Login />
+          </Route>
+          <Route exact path="/signUp">
+            <SignUp />
           </Route>
         </Switch>
     </Router>
